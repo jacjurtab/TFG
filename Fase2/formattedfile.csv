@@ -1,0 +1,217 @@
+NumeroPaquete,Timestamp,Origen,Destino,Longitud,CodigoFuncion,Objeto,Valor
+1,2004-10-11 13:38:58.504844032,4,3,10,Unsolicited Response,ND,ND
+2,2004-10-11 13:39:01.547020928,3,4,8,Confirm,ND,ND
+3,2004-10-11 13:39:01.547816064,3,4,18,Write,Time and Date (Obj:50  Var:01),0xff875ae4eb
+4,2004-10-11 13:39:01.569134080,4,3,10,Response,ND,ND
+5,2004-10-11 13:41:01.905495808,3,4,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02),Null
+5,2004-10-11 13:41:01.905495808,3,4,17,Disable Spontaneus Messages,Class 2 Data (Obj:60  Var:03),Null
+5,2004-10-11 13:41:01.905495808,3,4,17,Disable Spontaneus Messages,Class 3 Data (Obj:60  Var:04),Null
+6,2004-10-11 13:41:01.912092928,4,3,10,Response,ND,ND
+7,2004-10-11 13:50:23.047416832,4,3,10,Unsolicited Response,ND,ND
+8,2004-10-11 14:15:02.257400064,4,3,10,Unsolicited Response,ND,ND
+9,2004-10-11 14:15:03.397942016,3,4,8,Confirm,ND,ND
+10,2004-10-11 14:15:03.398715904,3,4,18,Write,Time and Date (Obj:50  Var:01),0xff877be1a9
+11,2004-10-11 14:15:03.409070080,4,3,10,Response,ND,ND
+12,2004-10-11 14:16:26.592304000,3,4,17,Enable Spontaneus Messages,Class 1 Data (Obj:60  Var:02),Null
+12,2004-10-11 14:16:26.592304000,3,4,17,Enable Spontaneus Messages,Class 2 Data (Obj:60  Var:03),Null
+12,2004-10-11 14:16:26.592304000,3,4,17,Enable Spontaneus Messages,Class 3 Data (Obj:60  Var:04),Null
+13,2004-10-11 14:16:26.667107072,4,3,10,Response,ND,ND
+14,2004-10-11 14:16:35.106256896,4,3,76,Unsolicited Response,Time and Date CTO (Obj:51  Var:01),0xff877d43e2
+14,2004-10-11 14:16:35.106256896,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+14,2004-10-11 14:16:35.106256896,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+14,2004-10-11 14:16:35.106256896,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+14,2004-10-11 14:16:35.106256896,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+14,2004-10-11 14:16:35.106256896,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+14,2004-10-11 14:16:35.106256896,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+14,2004-10-11 14:16:35.106256896,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+14,2004-10-11 14:16:35.106256896,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+15,2004-10-11 14:16:35.162782976,3,4,8,Confirm,ND,ND
+16,2004-10-11 14:16:36.566493056,4,3,71,Unsolicited Response,Time and Date CTO (Obj:51  Var:01),0xff877d47d5
+16,2004-10-11 14:16:36.566493056,4,3,71,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+16,2004-10-11 14:16:36.566493056,4,3,71,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+16,2004-10-11 14:16:36.566493056,4,3,71,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+16,2004-10-11 14:16:36.566493056,4,3,71,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+16,2004-10-11 14:16:36.566493056,4,3,71,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000198
+16,2004-10-11 14:16:36.566493056,4,3,71,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+16,2004-10-11 14:16:36.566493056,4,3,71,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+17,2004-10-11 14:16:36.574822912,3,4,8,Confirm,ND,ND
+18,2004-10-11 14:16:37.887726080,4,3,76,Unsolicited Response,Time and Date CTO (Obj:51  Var:01),0xff877d4ef4
+18,2004-10-11 14:16:37.887726080,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+18,2004-10-11 14:16:37.887726080,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+18,2004-10-11 14:16:37.887726080,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+18,2004-10-11 14:16:37.887726080,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+18,2004-10-11 14:16:37.887726080,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+18,2004-10-11 14:16:37.887726080,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000198
+18,2004-10-11 14:16:37.887726080,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000202
+18,2004-10-11 14:16:37.887726080,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000198
+19,2004-10-11 14:16:37.899044992,3,4,8,Confirm,ND,ND
+20,2004-10-11 14:16:39.597084032,4,3,71,Unsolicited Response,Time and Date CTO (Obj:51  Var:01),0xff877d52b5
+20,2004-10-11 14:16:39.597084032,4,3,71,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+20,2004-10-11 14:16:39.597084032,4,3,71,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+20,2004-10-11 14:16:39.597084032,4,3,71,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+20,2004-10-11 14:16:39.597084032,4,3,71,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+20,2004-10-11 14:16:39.597084032,4,3,71,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+20,2004-10-11 14:16:39.597084032,4,3,71,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000202
+20,2004-10-11 14:16:39.597084032,4,3,71,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000200
+21,2004-10-11 14:16:39.619539072,3,4,8,Confirm,ND,ND
+22,2004-10-11 14:16:40.719510144,4,3,76,Unsolicited Response,Time and Date CTO (Obj:51  Var:01),0xff877d5a1a
+22,2004-10-11 14:16:40.719510144,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+22,2004-10-11 14:16:40.719510144,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+22,2004-10-11 14:16:40.719510144,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+22,2004-10-11 14:16:40.719510144,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+22,2004-10-11 14:16:40.719510144,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+22,2004-10-11 14:16:40.719510144,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+22,2004-10-11 14:16:40.719510144,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+22,2004-10-11 14:16:40.719510144,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+23,2004-10-11 14:16:40.821281920,3,4,8,Confirm,ND,ND
+24,2004-10-11 14:16:42.513608064,4,3,50,Unsolicited Response,Time and Date CTO (Obj:51  Var:01),0xff877d5dc7
+24,2004-10-11 14:16:42.513608064,4,3,50,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+24,2004-10-11 14:16:42.513608064,4,3,50,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+24,2004-10-11 14:16:42.513608064,4,3,50,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+24,2004-10-11 14:16:42.513608064,4,3,50,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+24,2004-10-11 14:16:42.513608064,4,3,50,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+25,2004-10-11 14:16:42.563313024,3,4,8,Confirm,ND,ND
+26,2004-10-11 14:16:43.324244992,4,3,76,Unsolicited Response,Time and Date CTO (Obj:51  Var:01),0xff877d64c8
+26,2004-10-11 14:16:43.324244992,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+26,2004-10-11 14:16:43.324244992,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+26,2004-10-11 14:16:43.324244992,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+26,2004-10-11 14:16:43.324244992,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+26,2004-10-11 14:16:43.324244992,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+26,2004-10-11 14:16:43.324244992,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000198
+26,2004-10-11 14:16:43.324244992,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000199
+26,2004-10-11 14:16:43.324244992,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000199
+27,2004-10-11 14:16:43.426897152,3,4,8,Confirm,ND,ND
+28,2004-10-11 14:16:44.663059968,4,3,66,Unsolicited Response,Time and Date CTO (Obj:51  Var:01),0xff877d6bb5
+28,2004-10-11 14:16:44.663059968,4,3,66,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+28,2004-10-11 14:16:44.663059968,4,3,66,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+28,2004-10-11 14:16:44.663059968,4,3,66,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+28,2004-10-11 14:16:44.663059968,4,3,66,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+28,2004-10-11 14:16:44.663059968,4,3,66,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000202
+28,2004-10-11 14:16:44.663059968,4,3,66,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000200
+29,2004-10-11 14:16:44.696908928,3,4,8,Confirm,ND,ND
+30,2004-10-11 14:16:45.750704896,4,3,76,Unsolicited Response,Time and Date CTO (Obj:51  Var:01),0xff877d6e5e
+30,2004-10-11 14:16:45.750704896,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+30,2004-10-11 14:16:45.750704896,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+30,2004-10-11 14:16:45.750704896,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+30,2004-10-11 14:16:45.750704896,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),1
+30,2004-10-11 14:16:45.750704896,4,3,76,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+30,2004-10-11 14:16:45.750704896,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+30,2004-10-11 14:16:45.750704896,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+30,2004-10-11 14:16:45.750704896,4,3,76,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),0000
+31,2004-10-11 14:16:45.770488960,3,4,8,Confirm,ND,ND
+32,2004-10-11 14:16:50.792443008,4,3,56,Unsolicited Response,Time and Date CTO (Obj:51  Var:01),0xff877d716b
+32,2004-10-11 14:16:50.792443008,4,3,56,Unsolicited Response,Binary Input Change With Relative Time (Obj:02  Var:03),0
+32,2004-10-11 14:16:50.792443008,4,3,56,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000203
+32,2004-10-11 14:16:50.792443008,4,3,56,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000202
+32,2004-10-11 14:16:50.792443008,4,3,56,Unsolicited Response,32-Bit Analog Change Event w/o Time (Obj:32  Var:01),000199
+33,2004-10-11 14:16:50.835822080,3,4,8,Confirm,ND,ND
+34,2004-10-11 14:17:03.880342016,3,4,8,Cold Restart,ND,ND
+35,2004-10-11 14:17:03.905293952,4,3,16,Response,Time Delay - Fine (Obj:52  Var:02),0x1388
+36,2004-10-11 14:41:59.035890176,3,4,8,Cold Restart,ND,ND
+37,2004-10-11 14:41:59.083364992,4,6,10,Unsolicited Response,ND,ND
+38,2004-10-11 14:41:59.083898112,4,6,10,Unsolicited Response,ND,ND
+39,2004-10-11 14:41:59.084450944,4,3,16,Response,Time Delay - Fine (Obj:52  Var:02),0x1388
+40,2004-10-11 14:42:34.575975936,3,4,11,Read,Binary Input Change Default Variation (Obj:02  Var:Default),No implementado
+41,2004-10-11 14:42:34.654238848,4,3,10,Response,ND,ND
+42,2004-10-11 14:42:34.654731136,4,6,10,Unsolicited Response,ND,ND
+43,2004-10-11 14:42:34.731848064,3,4,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02),Null
+43,2004-10-11 14:42:34.731848064,3,4,17,Disable Spontaneus Messages,Class 2 Data (Obj:60  Var:03),Null
+43,2004-10-11 14:42:34.731848064,3,4,17,Disable Spontaneus Messages,Class 3 Data (Obj:60  Var:04),Null
+44,2004-10-11 14:42:34.756391040,4,3,10,Response,ND,ND
+45,2004-10-11 14:42:34.842032896,3,4,14,Write,Internal Indications (Obj:80  Var:01),No implementado
+46,2004-10-11 14:42:34.864881920,4,3,10,Response,ND,ND
+47,2004-10-11 14:42:34.952032128,3,4,20,Read,Class 1 Data (Obj:60  Var:02),Null
+47,2004-10-11 14:42:34.952032128,3,4,20,Read,Class 2 Data (Obj:60  Var:03),Null
+47,2004-10-11 14:42:34.952032128,3,4,20,Read,Class 3 Data (Obj:60  Var:04),Null
+47,2004-10-11 14:42:34.952032128,3,4,20,Read,Class 0 Data (Obj:60  Var:01),Null
+48,2004-10-11 14:42:34.977534080,4,3,78,Response,Single-Bit Binary Input (Obj:01  Var:01),No implementado
+48,2004-10-11 14:42:34.977534080,4,3,78,Response,,No implementado
+48,2004-10-11 14:42:34.977534080,4,3,78,Response,Single-Bit Binary Input (Obj:01  Var:01),No implementado
+48,2004-10-11 14:42:34.977534080,4,3,78,Response,Internal Indications of Response,No implementado
+48,2004-10-11 14:42:34.977534080,4,3,78,Response,32-Bit Frozen Binary Counter Without Flag (Obj:21  Var:05),No implementado
+48,2004-10-11 14:42:34.977534080,4,3,78,Response,32-Bit Analog Input Without Flag (Obj:30  Var:03),No implementado
+48,2004-10-11 14:42:34.977534080,4,3,78,Response,,No implementado
+48,2004-10-11 14:42:34.977534080,4,3,78,Response,Internal Indications of Response,No implementado
+48,2004-10-11 14:42:34.977534080,4,3,78,Response,,No implementado
+48,2004-10-11 14:42:34.977534080,4,3,78,Response,,No implementado
+48,2004-10-11 14:42:34.977534080,4,3,78,Response,Internal Indications of Response,No implementado
+49,2004-10-11 14:42:49.716268032,4,6,10,Unsolicited Response,ND,ND
+50,2004-10-11 14:43:04.797836032,4,6,10,Unsolicited Response,ND,ND
+51,2004-10-11 14:43:19.908752896,4,6,10,Unsolicited Response,ND,ND
+52,2004-10-11 14:43:59.916865152,4,6,10,Unsolicited Response,ND,ND
+53,2004-10-11 14:44:40.043945984,4,6,10,Unsolicited Response,ND,ND
+54,2004-10-11 14:45:20.204186880,4,6,10,Unsolicited Response,ND,ND
+55,2004-10-11 14:46:00.308660992,4,6,10,Unsolicited Response,ND,ND
+56,2004-10-11 14:46:40.396024064,4,6,10,Unsolicited Response,ND,ND
+57,2004-10-11 14:46:53.236044928,3,4,17,Enable Spontaneus Messages,Class 1 Data (Obj:60  Var:02),Null
+57,2004-10-11 14:46:53.236044928,3,4,17,Enable Spontaneus Messages,Class 2 Data (Obj:60  Var:03),Null
+57,2004-10-11 14:46:53.236044928,3,4,17,Enable Spontaneus Messages,Class 3 Data (Obj:60  Var:04),Null
+58,2004-10-11 14:46:53.373353088,4,3,10,Response,ND,ND
+59,2004-10-11 14:46:53.373850112,4,6,10,Unsolicited Response,ND,ND
+60,2004-10-11 14:47:00.673068928,3,4,17,Enable Spontaneus Messages,Class 1 Data (Obj:60  Var:02),Null
+60,2004-10-11 14:47:00.673068928,3,4,17,Enable Spontaneus Messages,Class 2 Data (Obj:60  Var:03),Null
+60,2004-10-11 14:47:00.673068928,3,4,17,Enable Spontaneus Messages,Class 3 Data (Obj:60  Var:04),Null
+61,2004-10-11 14:47:00.703161984,4,3,10,Response,ND,ND
+62,2004-10-11 14:47:08.446244992,4,6,10,Unsolicited Response,ND,ND
+63,2004-10-11 15:16:25.885063040,4,3,10,Unsolicited Response,ND,ND
+64,2004-10-11 15:16:28.523613056,3,4,8,Confirm,ND,ND
+65,2004-10-11 15:16:28.524409088,3,4,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02),Null
+65,2004-10-11 15:16:28.524409088,3,4,17,Disable Spontaneus Messages,Class 2 Data (Obj:60  Var:03),Null
+65,2004-10-11 15:16:28.524409088,3,4,17,Disable Spontaneus Messages,Class 3 Data (Obj:60  Var:04),Null
+66,2004-10-11 15:16:28.624309120,4,3,10,Response,ND,ND
+67,2004-10-11 15:16:28.771853056,3,4,18,Write,Time and Date (Obj:50  Var:01),0xff87b41d2f
+68,2004-10-11 15:16:28.834394880,4,3,10,Response,ND,ND
+69,2004-10-11 15:16:28.900372864,3,4,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02),Null
+69,2004-10-11 15:16:28.900372864,3,4,17,Disable Spontaneus Messages,Class 2 Data (Obj:60  Var:03),Null
+69,2004-10-11 15:16:28.900372864,3,4,17,Disable Spontaneus Messages,Class 3 Data (Obj:60  Var:04),Null
+70,2004-10-11 15:16:28.944297088,4,3,10,Response,ND,ND
+71,2004-10-11 15:16:29.070506112,3,4,18,Write,Time and Date (Obj:50  Var:01),0xff87b41e5b
+72,2004-10-11 15:16:29.167700096,4,3,10,Response,ND,ND
+73,2004-10-11 15:16:29.205390848,3,4,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02),Null
+73,2004-10-11 15:16:29.205390848,3,4,17,Disable Spontaneus Messages,Class 2 Data (Obj:60  Var:03),Null
+73,2004-10-11 15:16:29.205390848,3,4,17,Disable Spontaneus Messages,Class 3 Data (Obj:60  Var:04),Null
+74,2004-10-11 15:16:29.274806016,4,3,10,Response,ND,ND
+75,2004-10-11 15:16:29.419095936,3,4,14,Write,Internal Indications (Obj:80  Var:01),No implementado
+76,2004-10-11 15:16:29.484975104,4,3,10,Response,ND,ND
+77,2004-10-11 15:16:29.700934912,3,4,20,Read,Class 1 Data (Obj:60  Var:02),Null
+77,2004-10-11 15:16:29.700934912,3,4,20,Read,Class 2 Data (Obj:60  Var:03),Null
+77,2004-10-11 15:16:29.700934912,3,4,20,Read,Class 3 Data (Obj:60  Var:04),Null
+77,2004-10-11 15:16:29.700934912,3,4,20,Read,Class 0 Data (Obj:60  Var:01),Null
+78,2004-10-11 15:16:29.797225984,4,3,78,Response,Single-Bit Binary Input (Obj:01  Var:01),No implementado
+78,2004-10-11 15:16:29.797225984,4,3,78,Response,,numeroPuntos=10
+78,2004-10-11 15:16:29.797225984,4,3,78,Response,No implementado,No implementado
+78,2004-10-11 15:16:29.797225984,4,3,78,Response,No implementado,No implementado
+78,2004-10-11 15:16:29.797225984,4,3,78,Response,No implementado,No implementado
+78,2004-10-11 15:16:29.797225984,4,3,78,Response,No implementado,No implementado
+78,2004-10-11 15:16:29.797225984,4,3,78,Response,No implementado,No implementado
+78,2004-10-11 15:16:29.797225984,4,3,78,Response,Internal Indications of Response,No implementado
+78,2004-10-11 15:16:29.797225984,4,3,78,Response,Internal Indications of Response,No implementado
+78,2004-10-11 15:16:29.797225984,4,3,78,Response,Double-bit Input Default Variation (Obj:03  Var:Default),No implementado
+78,2004-10-11 15:16:29.797225984,4,3,78,Response,Internal Indications of Response,No implementado
+79,2004-10-11 15:17:14.960268928,3,4,8,Warm Restart,ND,ND
+80,2004-10-11 15:17:15.030338944,4,3,16,Response,Time Delay - Fine (Obj:52  Var:02),0x7d0
+81,2004-10-11 15:17:36.077223040,3,4,8,Warm Restart,ND,ND
+82,2004-10-11 15:17:36.091023872,4,3,16,Response,Time Delay - Fine (Obj:52  Var:02),0x7d0
+83,2004-10-11 16:09:07.094289024,4,3,10,Unsolicited Response,ND,ND
+84,2004-10-11 16:09:10.238686976,3,65535,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02),Null
+84,2004-10-11 16:09:10.238686976,3,65535,17,Disable Spontaneus Messages,Class 2 Data (Obj:60  Var:03),Null
+84,2004-10-11 16:09:10.238686976,3,65535,17,Disable Spontaneus Messages,Class 3 Data (Obj:60  Var:04),Null
+85,2004-10-11 16:09:19.359091072,3,65535,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02),Null
+85,2004-10-11 16:09:19.359091072,3,65535,17,Disable Spontaneus Messages,Class 2 Data (Obj:60  Var:03),Null
+85,2004-10-11 16:09:19.359091072,3,65535,17,Disable Spontaneus Messages,Class 3 Data (Obj:60  Var:04),Null
+86,2004-10-11 16:30:55.236054016,4,3,10,Unsolicited Response,ND,ND
+87,2004-10-11 16:31:04.654638080,3,4,17,Stop Application,Class 1 Data (Obj:60  Var:02),Null
+87,2004-10-11 16:31:04.654638080,3,4,17,Stop Application,,No implementado
+87,2004-10-11 16:31:04.654638080,3,4,17,Stop Application,Class 3 Data (Obj:60  Var:04),Null
+88,2004-10-11 16:31:04.723893888,4,3,10,Response,ND,ND
+89,2004-10-11 16:31:07.478126080,3,4,17,Stop Application,Class 1 Data (Obj:60  Var:02),Null
+89,2004-10-11 16:31:07.478126080,3,4,17,Stop Application,,No implementado
+89,2004-10-11 16:31:07.478126080,3,4,17,Stop Application,Class 3 Data (Obj:60  Var:04),Null
+90,2004-10-11 16:31:07.537969152,4,3,10,Response,ND,ND
+91,2004-10-11 16:46:17.297271936,6,3,10,Unsolicited Response,ND,ND
+92,2004-10-11 16:46:21.093331968,3,65535,17,Stop Application,Class 1 Data (Obj:60  Var:02),Null
+92,2004-10-11 16:46:21.093331968,3,65535,17,Stop Application,,No implementado
+92,2004-10-11 16:46:21.093331968,3,65535,17,Stop Application,Class 3 Data (Obj:60  Var:04),Null
+93,2004-10-11 16:46:22.837582976,3,65535,17,Stop Application,Class 1 Data (Obj:60  Var:02),Null
+93,2004-10-11 16:46:22.837582976,3,65535,17,Stop Application,,No implementado
+93,2004-10-11 16:46:22.837582976,3,65535,17,Stop Application,Class 3 Data (Obj:60  Var:04),Null

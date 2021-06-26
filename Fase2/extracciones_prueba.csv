@@ -1,0 +1,94 @@
+NumeroPaquete,Origen,Destino,Longitud,CodigoFuncion,CampoVector,NumeroObjetos
+1,4,3,10,Unsolicited Response,ND,0
+2,3,4,8,Confirm,ND,0
+3,3,4,18,Write,Time and Date (Obj:50  Var:01);0xff875ae4eb;,1
+4,4,3,10,Response,ND,0
+5,3,4,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;,3
+6,4,3,10,Response,ND,0
+7,4,3,10,Unsolicited Response,ND,0
+8,4,3,10,Unsolicited Response,ND,0
+9,3,4,8,Confirm,ND,0
+10,3,4,18,Write,Time and Date (Obj:50  Var:01);0xff877be1a9;,1
+11,4,3,10,Response,ND,0
+12,3,4,17,Enable Spontaneus Messages,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;,3
+13,4,3,10,Response,ND,0
+14,4,3,76,Unsolicited Response,Time and Date CTO (Obj:51  Var:01);numeroPuntos=1;0xff877d43e2;Binary Input Change With Relative Time (Obj:02  Var:03);numeroPuntos=5;0;1;1;1;0;32-Bit Analog Change Event w/o Time (Obj:32  Var:01);numeroPuntos=3;0000;0000;0000;,3
+15,3,4,8,Confirm,ND,0
+16,4,3,71,Unsolicited Response,Time and Date CTO (Obj:51  Var:01);numeroPuntos=1;0xff877d47d5;Binary Input Change With Relative Time (Obj:02  Var:03);numeroPuntos=4;0;0;1;1;32-Bit Analog Change Event w/o Time (Obj:32  Var:01);numeroPuntos=3;000198;0000;0000;,3
+17,3,4,8,Confirm,ND,0
+18,4,3,76,Unsolicited Response,Time and Date CTO (Obj:51  Var:01);numeroPuntos=1;0xff877d4ef4;Binary Input Change With Relative Time (Obj:02  Var:03);numeroPuntos=5;1;0;0;0;1;32-Bit Analog Change Event w/o Time (Obj:32  Var:01);numeroPuntos=3;000198;000202;000198;,3
+19,3,4,8,Confirm,ND,0
+20,4,3,71,Unsolicited Response,Time and Date CTO (Obj:51  Var:01);numeroPuntos=1;0xff877d52b5;Binary Input Change With Relative Time (Obj:02  Var:03);numeroPuntos=4;1;1;0;0;32-Bit Analog Change Event w/o Time (Obj:32  Var:01);numeroPuntos=3;0000;000202;000200;,3
+21,3,4,8,Confirm,ND,0
+22,4,3,76,Unsolicited Response,Time and Date CTO (Obj:51  Var:01);numeroPuntos=1;0xff877d5a1a;Binary Input Change With Relative Time (Obj:02  Var:03);numeroPuntos=5;0;1;1;1;0;32-Bit Analog Change Event w/o Time (Obj:32  Var:01);numeroPuntos=3;0000;0000;0000;,3
+23,3,4,8,Confirm,ND,0
+24,4,3,50,Unsolicited Response,Time and Date CTO (Obj:51  Var:01);numeroPuntos=1;0xff877d5dc7;Binary Input Change With Relative Time (Obj:02  Var:03);numeroPuntos=5;0;0;1;1;1;,2
+25,3,4,8,Confirm,ND,0
+26,4,3,76,Unsolicited Response,Time and Date CTO (Obj:51  Var:01);numeroPuntos=1;0xff877d64c8;Binary Input Change With Relative Time (Obj:02  Var:03);numeroPuntos=5;0;0;0;1;1;32-Bit Analog Change Event w/o Time (Obj:32  Var:01);numeroPuntos=3;000198;000199;000199;,3
+27,3,4,8,Confirm,ND,0
+28,4,3,66,Unsolicited Response,Time and Date CTO (Obj:51  Var:01);numeroPuntos=1;0xff877d6bb5;Binary Input Change With Relative Time (Obj:02  Var:03);numeroPuntos=3;1;0;0;32-Bit Analog Change Event w/o Time (Obj:32  Var:01);numeroPuntos=3;0000;000202;000200;,3
+29,3,4,8,Confirm,ND,0
+30,4,3,76,Unsolicited Response,Time and Date CTO (Obj:51  Var:01);numeroPuntos=1;0xff877d6e5e;Binary Input Change With Relative Time (Obj:02  Var:03);numeroPuntos=5;0;1;1;1;0;32-Bit Analog Change Event w/o Time (Obj:32  Var:01);numeroPuntos=3;0000;0000;0000;,3
+31,3,4,8,Confirm,ND,0
+32,4,3,56,Unsolicited Response,Time and Date CTO (Obj:51  Var:01);numeroPuntos=1;0xff877d716b;Binary Input Change With Relative Time (Obj:02  Var:03);numeroPuntos=1;0;32-Bit Analog Change Event w/o Time (Obj:32  Var:01);numeroPuntos=3;000203;000202;000199;,3
+33,3,4,8,Confirm,ND,0
+34,3,4,8,Cold Restart,ND,0
+35,4,3,16,Response,Time Delay - Fine (Obj:52  Var:02);numeroPuntos=1;0x1388,1
+36,3,4,8,Cold Restart,ND,0
+37,4,6,10,Unsolicited Response,ND,0
+38,4,6,10,Unsolicited Response,ND,0
+39,4,3,16,Response,Time Delay - Fine (Obj:52  Var:02);numeroPuntos=1;0x1388,1
+40,3,4,11,Read,Binary Input Change Default Variation (Obj:02  Var:Default);No implementado;,1
+41,4,3,10,Response,ND,0
+42,4,6,10,Unsolicited Response,ND,0
+43,3,4,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;,3
+44,4,3,10,Response,ND,0
+45,3,4,14,Write,Internal Indications (Obj:80  Var:01);No implementado;,1
+46,4,3,10,Response,ND,0
+47,3,4,20,Read,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;Class 0 Data (Obj:60  Var:01);Null;,4
+48,4,3,78,Response,Single-Bit Binary Input (Obj:01  Var:01);No implementado;;No implementado;Single-Bit Binary Input (Obj:01  Var:01);No implementado;Internal Indications of Response;No implementado;32-Bit Frozen Binary Counter Without Flag (Obj:21  Var:05);No implementado;32-Bit Analog Input Without Flag (Obj:30  Var:03);No implementado;;No implementado;Internal Indications of Response;No implementado;;No implementado;;No implementado;Internal Indications of Response;No implementado;,11
+49,4,6,10,Unsolicited Response,ND,0
+50,4,6,10,Unsolicited Response,ND,0
+51,4,6,10,Unsolicited Response,ND,0
+52,4,6,10,Unsolicited Response,ND,0
+53,4,6,10,Unsolicited Response,ND,0
+54,4,6,10,Unsolicited Response,ND,0
+55,4,6,10,Unsolicited Response,ND,0
+56,4,6,10,Unsolicited Response,ND,0
+57,3,4,17,Enable Spontaneus Messages,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;,3
+58,4,3,10,Response,ND,0
+59,4,6,10,Unsolicited Response,ND,0
+60,3,4,17,Enable Spontaneus Messages,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;,3
+61,4,3,10,Response,ND,0
+62,4,6,10,Unsolicited Response,ND,0
+63,4,3,10,Unsolicited Response,ND,0
+64,3,4,8,Confirm,ND,0
+65,3,4,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;,3
+66,4,3,10,Response,ND,0
+67,3,4,18,Write,Time and Date (Obj:50  Var:01);0xff87b41d2f;,1
+68,4,3,10,Response,ND,0
+69,3,4,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;,3
+70,4,3,10,Response,ND,0
+71,3,4,18,Write,Time and Date (Obj:50  Var:01);0xff87b41e5b;,1
+72,4,3,10,Response,ND,0
+73,3,4,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;,3
+74,4,3,10,Response,ND,0
+75,3,4,14,Write,Internal Indications (Obj:80  Var:01);No implementado;,1
+76,4,3,10,Response,ND,0
+77,3,4,20,Read,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;Class 0 Data (Obj:60  Var:01);Null;,4
+78,4,3,78,Response,Single-Bit Binary Input (Obj:01  Var:01);No implementado;;numeroPuntos=10;No implementado;No implementado;No implementado;No implementado;No implementado;No implementado;No implementado;No implementado;No implementado;No implementado;Internal Indications of Response;No implementado;Internal Indications of Response;No implementado;Double-bit Input Default Variation (Obj:03  Var:Default);No implementado;Internal Indications of Response;No implementado;;No implementado;;No implementado;;No implementado;;No implementado;Internal Indications of Response;No implementado;,11
+79,3,4,8,Warm Restart,ND,0
+80,4,3,16,Response,Time Delay - Fine (Obj:52  Var:02);numeroPuntos=1;0x7d0,1
+81,3,4,8,Warm Restart,ND,0
+82,4,3,16,Response,Time Delay - Fine (Obj:52  Var:02);numeroPuntos=1;0x7d0,1
+83,4,3,10,Unsolicited Response,ND,0
+84,3,65535,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;,3
+85,3,65535,17,Disable Spontaneus Messages,Class 1 Data (Obj:60  Var:02);Null;Class 2 Data (Obj:60  Var:03);Null;Class 3 Data (Obj:60  Var:04);Null;,3
+86,4,3,10,Unsolicited Response,ND,0
+87,3,4,17,Stop Application,Class 1 Data (Obj:60  Var:02);Null;;No implementado;Class 3 Data (Obj:60  Var:04);Null;,3
+88,4,3,10,Response,ND,0
+89,3,4,17,Stop Application,Class 1 Data (Obj:60  Var:02);Null;;No implementado;Class 3 Data (Obj:60  Var:04);Null;,3
+90,4,3,10,Response,ND,0
+91,6,3,10,Unsolicited Response,ND,0
+92,3,65535,17,Stop Application,Class 1 Data (Obj:60  Var:02);Null;;No implementado;Class 3 Data (Obj:60  Var:04);Null;,3
+93,3,65535,17,Stop Application,Class 1 Data (Obj:60  Var:02);Null;;No implementado;Class 3 Data (Obj:60  Var:04);Null;,3
