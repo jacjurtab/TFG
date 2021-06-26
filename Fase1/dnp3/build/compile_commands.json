@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/home/dit/tranalyzer2-0.8.10/plugins/dnp3/build",
+    "command": "cc -Idnp3@sha -I. -I.. -I../../../utils -I../../../tranalyzer2/src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu99 -O3 -D_GNU_SOURCE -fPIC -pthread -MD -MQ 'dnp3@sha/src_dnp3.c.o' -MF 'dnp3@sha/src_dnp3.c.o.d' -o 'dnp3@sha/src_dnp3.c.o' -c ../src/dnp3.c",
+    "file": "../src/dnp3.c",
+    "output": "dnp3@sha/src_dnp3.c.o"
+  }
+]
