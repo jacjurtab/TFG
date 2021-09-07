@@ -84,12 +84,3 @@ data = pd.read_csv('formattedfile.csv')
 data_json = json.loads(data.to_json(orient='records'))
 db_cm.insert_many(data_json)
 
-
-# Extraer datos y aplicar ewma
-filter={
-    'Objeto': '32-Bit Analog Change Event w/o Time (Obj:32  Var:01)'
-}
-
-query_result = deteccionAnomalias.read_mongo('dnp3', 'Datos', filter,'localhost', 27017)
-query_result['ewma'] = query_result.ewm(query_result['Valor'])
-ewm.plot()
