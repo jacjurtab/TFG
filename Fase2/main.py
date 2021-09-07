@@ -2,7 +2,9 @@ import pandas as pd
 import re
 import json
 import pymongo
+from matplotlib import pyplot as plt
 import deteccionAnomalias
+from sklearn.metrics import confusion_matrix
 
 # Leemos el fichero salida del disector de paquetes DNP3
 df = pd.read_csv('extracciones_prueba.csv', sep=',')
@@ -84,3 +86,76 @@ data = pd.read_csv('formattedfile.csv')
 data_json = json.loads(data.to_json(orient='records'))
 db_cm.insert_many(data_json)
 
+
+
+# Extraer datos
+filter = {
+    'Objeto': '32-Bit Analog Change Event w/o Time (Obj:32  Var:01)'
+}
+# sort=list({
+#    'Timestamp': 1
+# }.items())
+
+# Realizamos la consulta a la base de datos
+df_query = deteccionAnomalias.read_mongo('dnp3', 'Datos', filter, 'localhost', 27017)
+
+# Deteccion de anomalias en un dato
+# Ventana para el rolling
+# ventana = 10
+
+# Columna a analizar
+columna = 'Valor'
+
+# Convertimos a entero el valor de la columna valor
+df_query['Valor'] = pd.to_numeric(df_query['Valor'])
+
+# Porcentaje para detección
+# k_deteccion = 1.05
+###########################
+
+for ventana in [3, 5, 8, 10]:
+    for k_deteccion in [1.05, 1.10]:
+
+        # calcular media móvil y su varianza
+        df_query['mean'] = df_query[columna].rolling(ventana).mean()
+        df_query['std'] = df_query[columna].rolling(ventana).std()
+
+        # desplazar media y desvianza
+        df_query['mean'] = df_query['mean'].shift(1)
+        df_query['std'] = df_query['std'].shift(1)
+
+        # Añadir columna anomaly
+        df_query['anomaly'] = False
+
+        # Añadir columna umbral
+        df_query.loc[:, 'umbral'] = (df_query['mean'] + df_query['std']) * k_deteccion
+
+        # Detección
+        df_query.loc[df_query['Valor'] > (df_query['mean'] + df_query['std']) * k_deteccion, 'anomaly'] = True
+
+        # Comprobamos si los resultados han sido falsos positivos, falsos negativos, verdaderos positivos o
+        # verdaderos negativos
+        try:
+            tn, fp, fn, tp = confusion_matrix(df_query['AnomalyDB'], df_query['anomaly']).ravel()
+        except:
+            tn = confusion_matrix(df_query['AnomalyDB'], df_query['anomaly'])[0][0]
+            fp = 0
+            fn = 0
+            tp = 0
+
+        # Representacion de los resultados
+        df_query['Valor'].plot()
+        df_query['umbral'].plot()
+        plt.title('Valor del punto y umbral permitido')
+        plt.xlabel('Tiempo')
+        plt.ylabel('Valor')
+        plt.show()
+
+        # Realizacion de matriz de confusion
+        name = ['tn', 'fp', 'fn', 'tp']
+        values = [tn, fp, fn, tp]
+        plt.bar(name, values)
+        plt.title('Matriz de confusion')
+        plt.xlabel('Verdadero negativo/ Falso positivo/ Falso negativo/ Verdadero positivo')
+        plt.ylabel('Total')
+        plt.show()
